@@ -138,8 +138,8 @@ function getMetrics() {
                 name = nets.name;
 
 
-                down_mbps = nets.speed.up.value;
-                up_mbps = nets.speed.down.value;
+                up_mbps = nets.speed.up.value;
+                down_mbps = nets.speed.down.value;
 
                 console.log(name + ": " + up_mbps);
                 upMBPSNetworkMetric.set({ name: name }, up_mbps);
