@@ -1,0 +1,22 @@
+.vscode
+.vs
+
+EeroMetricsWebApplication.sln
+
+EeroMetricsWebApplication/node_modules
+EeroMetricsWebApplication/npm-debug.log
+EeroMetricsWebApplication/EeroMetricsWebApplication.njsproj
+EeroMetricsWebApplication/EeroMetricsWebApplication.njsproj.user
+EeroMetricsWebApplication/obj
+EeroMetricsWebApplication/bin
+EeroMetricsWebApplication/UpgradeLog.htm
+
+UpgradeLog.htm
+
+npm-debug.log
+# Mac
+.DS_Store
+
+# Node
+node_modules
+package-lock.json

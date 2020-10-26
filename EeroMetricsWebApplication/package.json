@@ -1,0 +1,16 @@
+{
+  "name": "eero-metrics-web-application",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Steven Fraser setevenrfraser7@gmail.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "eero-js-api": "0.0.2",
+    "prom-client": "11.2.0",
+    "ejs": "3.1.5"
+  }
+}
