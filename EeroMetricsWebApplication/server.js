@@ -8,7 +8,7 @@ var gatherMetrics = require('./gather_metrics.js');
 const PORT = 3000;
 const HOST = '0.0.0.0';
 
-var CONTACT_METHOD = process.env.CONTACT_METHOD || "6169144192";
+var CONTACT_METHOD = process.env.CONTACT_METHOD || null;
 var EERO_SESSION_COOKIE = process.env.EERO_SESSION_COOKIE || null;
 
 console.log("EERO_SESSION_COOKIE: " + EERO_SESSION_COOKIE);
